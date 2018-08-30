@@ -1,6 +1,6 @@
 class Book
-  def initialize(bookName)
-    @book = bookName
+  def initialize(title)
+    @title = title
   end
 end
 
