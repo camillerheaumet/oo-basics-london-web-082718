@@ -7,12 +7,9 @@ class Shoe
   
   attr_accessor :color, :size, :material, :condition
   
-  def cobble=(cobble)
-    @cobble = cobble
-  end
-  
   def cobble
-    @cobble
+    @cobble 
+    puts 
   end
   
 end
